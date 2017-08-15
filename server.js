@@ -6,7 +6,11 @@ var app = express();
 app.use(morgan('combined'));
 
 
-var articleOne = {
+var articles = {
+    articleOne = {},
+    articleTwo = {},
+    articleThree = {}
+};
     title: 'Article one I am Manohar Reddy',
     heading: 'Article One',
     date: 'august 14, 2017',
@@ -20,6 +24,7 @@ var articleOne = {
     <p>
         This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.
     </p>`
+},
 };
 
 function createTemplate (data) {
