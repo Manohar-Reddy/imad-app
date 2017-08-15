@@ -7,7 +7,7 @@ app.use(morgan('combined'));
 
 
 var articles = {
-    'article-one' : {
+    'article-one': {
     title: 'Article one i am Manohar Reddy',
     heading: 'Article One',
     date: 'august 14, 2017',
@@ -22,34 +22,34 @@ var articles = {
         This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.
     </p>`
 },
-    'article-two' : {
+    'article-two': {
         title: 'Article two i am Manohar Reddy',
         heading: 'Article Two',
         date: 'august 15, 2017',
         content: `
              <p>
-                This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.
+                This is my content in my second web page.
             </p>
             <p>
-                This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.
+                This is my content in my secondt web page.
             </p>
             <p>
-                This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.
+                This is my content in my second web page.T
             </p>`
 },
-    'article-three' : {
+    'article-three': {
         title: 'Article Three i am Manohar Reddy',
         heading: 'Article Three',
         date: 'august 16, 2017',
         content: `
              <p>
-                This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.
+                This is my content in my third web page.
             </p>
             <p>
-                This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.
+                This is my content in my third web page.
             </p>
             <p>
-                This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.
+                This is my content in my third web page.
             </p>`
 },
 };
@@ -95,8 +95,11 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-app.get('/article-one', function (req,res) {
-    res.send(createTemplate(articleOne));
+app.get('/:articleName', function (req,res) {
+    //articleName = article-one
+    //articles[articleName] = {} content object for article one
+    var articleName = req.params.articleName;
+    res.send(createTemplate(articles[articleName]));
 });
 
 app.get('/article-two', function (req,res) {
