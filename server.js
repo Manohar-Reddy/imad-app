@@ -7,9 +7,9 @@ app.use(morgan('combined'));
 
 
 var articles = {
-    articleOne = {},
-    articleTwo = {},
-    articleThree = {}
+    articleOne : {},
+    articleTwo : {},
+    articleThree : {}
 };
     title: 'Article one I am Manohar Reddy',
     heading: 'Article One',
