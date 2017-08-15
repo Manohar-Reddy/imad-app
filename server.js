@@ -7,20 +7,20 @@ app.use(morgan('combined'));
 
 
 var articles = {
-    'article-one': {
-    title: 'Article one i am Manohar Reddy',
-    heading: 'Article One',
-    date: 'august 14, 2017',
-    content: `
-     <p>
-        This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.
-    </p>
-    <p>
-        This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.
-    </p>
-    <p>
-        This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.
-    </p>`
+   'article-one': {
+        title: 'Article one i am Manohar Reddy',
+        heading: 'Article One',
+        date: 'august 14, 2017',
+        content: `
+         <p>
+            This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.
+        </p>
+        <p>
+            This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.
+        </p>
+        <p>
+            This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.
+        </p>`
 },
     'article-two': {
         title: 'Article two i am Manohar Reddy',
@@ -34,7 +34,7 @@ var articles = {
                 This is my content in my secondt web page.
             </p>
             <p>
-                This is my content in my second web page.T
+                This is my content in my second web page.
             </p>`
 },
     'article-three': {
