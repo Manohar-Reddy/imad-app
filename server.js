@@ -22,35 +22,35 @@ var articles = {
         This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.
     </p>`
 },
-articleTwo : {
-     title: 'Article two i am Manohar Reddy',
-    heading: 'Article Two',
-    date: 'august 15, 2017',
-    content: `
-     <p>
-        This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.
-    </p>
-    <p>
-        This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.
-    </p>
-    <p>
-        This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.
-    </p>`
+    articleTwo : {
+        title: 'Article two i am Manohar Reddy',
+        heading: 'Article Two',
+        date: 'august 15, 2017',
+        content: `
+             <p>
+                This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.
+            </p>
+            <p>
+                This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.
+            </p>
+            <p>
+                This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.
+            </p>`
 },
- articleThree : {
-    title: 'Article Three i am Manohar Reddy',
-    heading: 'Article Three',
-    date: 'august 16, 2017',
-    content: `
-     <p>
-        This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.
-    </p>
-    <p>
-        This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.
-    </p>
-    <p>
-        This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.
-    </p>`
+    articleThree : {
+        title: 'Article Three i am Manohar Reddy',
+        heading: 'Article Three',
+        date: 'august 16, 2017',
+        content: `
+             <p>
+                This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.
+            </p>
+            <p>
+                This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.
+            </p>
+            <p>
+                This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.This is my content in my first web page.
+            </p>`
 },
 };
 
